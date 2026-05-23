@@ -427,3 +427,36 @@ font-size: 30px;
 html {
   scroll-behavior: smooth;
 }
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .main {
+    background:
+      linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)),
+      url('daniel.png') no-repeat center bottom;
+
+    background-size: 90%;
+
+    justify-content: center;
+    text-align: center;
+
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+
+  .main h1 {
+    font-size: 36px;
+    text-shadow: 0 2px 10px rgba(255,255,255,0.9);
+  }
+
+  .main h6 {
+    font-size: 15px;
+    text-shadow: 0 2px 10px rgba(255,255,255,0.9);
+  }
+
+  .main .btn {
+    width: 100%;
+    margin-top: 12px !important;
+  }
+}
