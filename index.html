@@ -1,0 +1,908 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daniel Steven Setyawan | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="Group.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+        Daniel.
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto">
+          <a class="nav-link px-lg-3 rounded" href="#Home">Home</a>
+          <a class="nav-link px-lg-3 rounded" href="#about">About</a>
+          <a class="nav-link px-lg-3 rounded" href="#portfolio">Portfolio</a>
+          <a class="nav-link px-lg-3 rounded" href="#blog">Blog</a>
+        </div>
+      </div>
+      <div class="contact-nav ms-auto">
+        <a class="btn" href="#contact">Let's Talk</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <section id="Home" class="main py-5">
+    <div class="container py-5">
+      <div class="row py-5">
+        <div class="col-lg-6 py-5 mr-auto">
+          <h1><small>Hello I'm 👋🏻</small> <br>
+            Daniel Steven S.
+          </h1>
+          <h6> UI/UX Enthusiast | Front-End Learner</h6>
+          <a href="#contact" class="btn btn-dark mt-4">Hire Me</a>
+          <a href="CV-Daniel Steven Setyawan.pdf" class="btn btn-outline-dark mt-4" download>
+            Download CV
+          </a>
+        </div>
+      </div>
+  </section>
+
+  <!-- STATS SECTION - Below Home -->
+  <section id="stats" class="stats-section">
+    <div class="container">
+      <div class="stats-wrapper">
+        <!-- Stats Headers - 3 columns -->
+        <div class="stats-grid">
+          <div class="stat-header" data-stat="projects">
+            <div class="stat-number">
+              <span class="counter" data-target="6">0</span>
+              <span class="stat-plus">+</span>
+            </div>
+            <div class="stat-label mb-2 mx-3">Total Projects</div>
+          </div>
+
+          <div class="stat-header" data-stat="certificates">
+            <div class="stat-number">
+              <span class="counter" data-target="2">0</span>
+              <span class="stat-plus">+</span>
+            </div>
+            <div class="stat-label mb-2 mx-3">Certificates</div>
+          </div>
+
+          <div class="stat-header" data-stat="techstack">
+            <div class="stat-number">
+              <span class="counter" data-target="20">0</span>
+              <span class="stat-plus">+</span>
+            </div>
+            <div class="stat-label mb-2 mx-3">Tech Stack</div>
+          </div>
+        </div>
+
+        <!-- Stats Details - Full Width -->
+        <div class="stat-details">
+          <div class="stat-detail" id="projects-detail" data-stat="projects">
+            <div class="repo-list">
+              <div class="repo-item">
+                <i class="bi bi-github"></i>
+                <span>AI-Emotion-Project</span>
+                <span class="repo-lang"><i class="bi bi-circle-fill" style="color:#3572A5"></i> Python</span>
+              </div>
+              <div class="repo-item">
+                <i class="bi bi-github"></i>
+                <span>daniel-portfolio</span>
+                <span class="repo-lang"><i class="bi bi-circle-fill" style="color:#e34c26"></i> HTML</span>
+              </div>
+              <div class="repo-item">
+                <i class="bi bi-github"></i>
+                <span>CODIAC-Coding-Learning-App</span>
+                <span class="repo-lang"><i class="bi bi-circle-fill" style="color:#3572A5"></i> Python</span>
+              </div>
+              <div class="repo-item">
+                <i class="bi bi-github"></i>
+                <span>Sistem-Rental-PlayStation</span>
+                <span class="repo-lang"><i class="bi bi-circle-fill" style="color:#f34b7d"></i> C++</span>
+              </div>
+              <div class="repo-item">
+                <i class="bi bi-github"></i>
+                <span>Excar-Car-Rental-Platform</span>
+                <span class="repo-lang"><i class="bi bi-circle-fill" style="color:#4F5D95"></i> PHP</span>
+              </div>
+              <div class="repo-item">
+                <i class="bi bi-github"></i>
+                <span>REIJIN-Brand-Website</span>
+                <span class="repo-lang"><i class="bi bi-circle-fill" style="color:#e34c26"></i> HTML</span>
+              </div>
+                            <div class="repo-item">
+                <i class="bi bi-github"></i>
+                <span>REIJIN-Brand-Website</span>
+                <span class="repo-lang"><i class="bi bi-circle-fill" style="color:#e34c26"></i> HTML</span>
+              </div>
+                            <div class="repo-item">
+                <i class="bi bi-github"></i>
+                <span>REIJIN-Brand-Website</span>
+                <span class="repo-lang"><i class="bi bi-circle-fill" style="color:#e34c26"></i> HTML</span>
+              </div>
+                            <div class="repo-item">
+                <i class="bi bi-github"></i>
+                <span>REIJIN-Brand-Website</span>
+                <span class="repo-lang"><i class="bi bi-circle-fill" style="color:#e34c26"></i> HTML</span>
+              </div>
+            </div>
+            <a href="https://github.com/danielstevee" target="_blank" class="repo-link">View on GitHub <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+
+          <div class="stat-detail" id="certificates-detail" data-stat="certificates">
+            <div class="cert-list">
+              <div class="cert-item">
+                <div class="cert-img-wrap">
+                  <img src="2.png" alt="Certificate 1">
+                </div>
+                <div class="cert-info">
+                  <h4>Web Development Fundamentals</h4>
+                  <p>Completed comprehensive web development training</p>
+                </div>
+              </div>
+              <div class="cert-item">
+                <div class="cert-img-wrap">
+                  <img src="2.png" alt="Certificate 2">
+                </div>
+                <div class="cert-info">
+                  <h4>UI/UX Design Principles</h4>
+                  <p>Professional UI/UX design certification</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="stat-detail" id="techstack-detail" data-stat="techstack">
+            <div class="tech-marquee-container">
+              <div class="tech-marquee">
+                <div class="tech-item"><i class="fab fa-html5"></i><span>HTML</span></div>
+                <div class="tech-item"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+                <div class="tech-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                <div class="tech-item"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></div>
+                <div class="tech-item"><i class="fab fa-figma"></i><span>Figma</span></div>
+                <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
+                <div class="tech-item"><i class="fab fa-cuttlefish"></i><span>C++</span></div>
+                <div class="tech-item"><i class="fab fa-php"></i><span>PHP</span></div>
+                <div class="tech-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+                <!-- Duplicate for seamless loop -->
+                <div class="tech-item"><i class="fab fa-html5"></i><span>HTML</span></div>
+                <div class="tech-item"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+                <div class="tech-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                <div class="tech-item"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></div>
+                <div class="tech-item"><i class="fab fa-figma"></i><span>Figma</span></div>
+                <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
+                <div class="tech-item"><i class="fab fa-cuttlefish"></i><span>C++</span></div>
+                <div class="tech-item"><i class="fab fa-php"></i><span>PHP</span></div>
+                <div class="tech-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION - Redesigned -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Daniel Steven Setyawan</h2>
+        <p class="section-desc">Turning Ideas Into Interactive Designs</p>
+      </div>
+
+      <div class="about-content">
+        <div class="about-intro">
+          <p>I'm <strong>Daniel Steven Setyawan</strong> (19), a first-year student in the Bachelor of Informatics
+            Engineering Program, Faculty of Engineering, Universitas Negeri Surabaya. I have a deep passion for technology and informatics,
+            especially in software development, network systems, and cybersecurity.</p>
+          <p>Since high school, I've also been interested in graphic design, UI/UX, and front-end development, which
+            helps me combine creativity and functionality in my projects. My enthusiasm for technology and design
+            drives me to keep learning, innovating, and creating practical and creative solutions through every
+            project I work on.</p>
+          <p>I specialize in transforming creative ideas into interactive and visually engaging designs. By combining
+            my skills in front-end development, UI/UX, and graphic design, I aim to build digital experiences that are
+            not only functional and responsive, but also aesthetically meaningful and enjoyable for users.</p>
+        </div>
+      </div>
+
+       <!-- Experience Section -->
+      <div class="experience-section">
+        <div class="experience-header">
+          <span class="section-tag">Journey</span>
+          <h2 class="section-title">Experience</h2>
+        </div>
+        <div class="experience-list">
+          <div class="experience-item">
+            <div class="exp-year">2025 - Present</div>
+            <div class="exp-content">
+              <h5>Assistant at Multimedia Laboratory UNESA</h5>
+              <p class="exp-location"><i class="bi bi-geo-alt-fill"></i> Madiun, East Java Indonesia</p>
+              <p class="exp-desc">(Front-End | UI/UX | Graphic Design) | Developed web-based user interfaces applying front-end development principles.</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-year">2024 - Present</div>
+            <div class="exp-content">
+              <h5>Freelance Graphic Designer</h5>
+              <p class="exp-location"><i class="bi bi-geo-alt-fill"></i> Surabaya, East Java Indonesia</p>
+              <p class="exp-desc">Assisted individuals and organizations in visual branding with creative and functional designs.</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-year">2024 - 2024</div>
+            <div class="exp-content">
+              <h5>Akrilik Cipta Karya</h5>
+              <p class="exp-location"><i class="bi bi-geo-alt-fill"></i> Surabaya, East Java Indonesia</p>
+              <p class="exp-desc">Created designs for social media and marketplace platforms & Edited promotional video content.</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-year">2024 - 2026</div>
+            <div class="exp-content">
+              <h5>EXPO CAMPUS 2025</h5>
+              <p class="exp-location"><i class="bi bi-geo-alt-fill"></i> Madiun, East Java Indonesia</p>
+              <p class="exp-desc">Manager Publication & Design Committee</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-year">2024 - 2025</div>
+            <div class="exp-content">
+              <h5>IELS (Inclusive English Learning Space)</h5>
+              <p class="exp-location"><i class="bi bi-geo-alt-fill"></i> Jakarta, West Java Indonesia</p>
+              <p class="exp-desc">Associate Creative | Designed Instagram feeds, stories, posters, and LinkedIn branding materials for @iels.co.</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-year">2024 - 2025</div>
+            <div class="exp-content">
+              <h5>Google Developer Groups Organizer Community (UNESA)</h5>
+              <p class="exp-location"><i class="bi bi-geo-alt-fill"></i> Surabaya, East Java Indonesia</p>
+              <p class="exp-desc">Production & Creative Staff | Created posters, social media content, and banners for @gdgoc.unesa.</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-year">2022 - 2023</div>
+            <div class="exp-content">
+              <h5>OSIS SMAN 1 Mejayan</h5>
+              <p class="exp-location"><i class="bi bi-geo-alt-fill"></i> Madiun, East Java Indonesia</p>
+              <p class="exp-desc">Head of IT & Media | Managed the school website and social media (@sman1mejayan & @osissansekerta).</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-year">2021 - 2022</div>
+            <div class="exp-content">
+              <h5>OSIS SMAN 1 Mejayan</h5>
+              <p class="exp-location"><i class="bi bi-geo-alt-fill"></i> Madiun, East Java Indonesia</p>
+              <p class="exp-desc">Staff of IT & Media | Assisted in managing school website and social media.</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-year">2021 - 2022</div>
+            <div class="exp-content">
+              <h5>PPKK Extracurricular</h5>
+              <p class="exp-location"><i class="bi bi-geo-alt-fill"></i> Madiun, East Java Indonesia</p>
+              <p class="exp-desc">Vice Chairperson | Acted as project leader for Christmas and Retreat events.</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-year">2021 - 2022</div>
+            <div class="exp-content">
+              <h5>Karate Extracurricular (INKANAS)</h5>
+              <p class="exp-location"><i class="bi bi-geo-alt-fill"></i> Madiun, East Java Indonesia</p>
+              <p class="exp-desc">Vice Chairperson | Organized routine training sessions and served as the main trainer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION - 3 TABS STYLE -->
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <div class="portfolio-header">
+        <span class="section-tag">Selected Works</span>
+        <h1 class="section-title">My Portfolio</h1>
+        <p class="section-desc">A curated showcase of my creative journey across web development, UI/UX design, and graphic design.</p>
+      </div>
+
+      <!-- Tab Navigation -->
+      <div class="portfolio-tabs">
+        <button class="portfolio-tab active" data-tab="webdev">
+          <span class="tab-num">01</span>
+          <span class="tab-label">Web Development</span>
+        </button>
+        <button class="portfolio-tab" data-tab="uiux">
+          <span class="tab-num">02</span>
+          <span class="tab-label">UI/UX Design</span>
+        </button>
+        <button class="portfolio-tab" data-tab="graphic">
+          <span class="tab-num">03</span>
+          <span class="tab-label">Graphic Design</span>
+        </button>
+      </div>
+
+      <!-- Web Development Tab -->
+      <div class="portfolio-content active" id="webdev-content">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="portfolio-card" data-cursor="View">
+              <div class="portfolio-img-wrap">
+                <img src="1.png" class="img-fluid" alt="E-Commerce Website">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <span class="portfolio-category">Web Development</span>
+                <h3>E-Commerce Platform</h3>
+                <p>Full-stack e-commerce website with modern UI, cart functionality, and responsive design.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="portfolio-card" data-cursor="View">
+              <div class="portfolio-img-wrap">
+                <img src="2.png" class="img-fluid" alt="Portfolio Website">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <span class="portfolio-category">Web Development</span>
+                <h3>Personal Portfolio</h3>
+                <p>Interactive portfolio website with smooth animations and modern web technologies.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="portfolio-card" data-cursor="View">
+              <div class="portfolio-img-wrap">
+                <img src="3.png" class="img-fluid" alt="Dashboard App">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <span class="portfolio-category">Web Development</span>
+                <h3>Admin Dashboard</h3>
+                <p>Data visualization dashboard with charts, tables, and real-time analytics.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- UI/UX Design Tab -->
+      <div class="portfolio-content" id="uiux-content">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="portfolio-card" data-cursor="View">
+              <div class="portfolio-img-wrap">
+                <img src="plant.png" class="img-fluid" alt="Cooking App">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <span class="portfolio-category">UI/UX Design</span>
+                <h3>Cooking App</h3>
+                <p>Modern and intuitive app design for exploring cooking tutorials with clean interface.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="portfolio-card" data-cursor="View">
+              <div class="portfolio-img-wrap">
+                <img src="Plant2.png" class="img-fluid" alt="Plant Care App">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <span class="portfolio-category">UI/UX Design</span>
+                <h3>Plant Care & Eco App</h3>
+                <p>Sustainable app design guiding users in planting care and eco-friendly practices.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="portfolio-card" data-cursor="View">
+              <div class="portfolio-img-wrap">
+                <img src="pelapor.png" class="img-fluid" alt="Road Report App">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <span class="portfolio-category">UI/UX Design</span>
+                <h3>Road Report App</h3>
+                <p>Intuitive app for reporting damaged roads, improving public safety through design.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Graphic Design Tab -->
+      <div class="portfolio-content" id="graphic-content">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="portfolio-card" data-cursor="View">
+              <div class="portfolio-img-wrap">
+                <img src="4.png" class="img-fluid" alt="Brand Identity">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <span class="portfolio-category">Graphic Design</span>
+                <h3>Brand Identity System</h3>
+                <p>Complete visual identity including logo, color palette, and brand guidelines.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="portfolio-card" data-cursor="View">
+              <div class="portfolio-img-wrap">
+                <img src="5.png" class="img-fluid" alt="Social Media Kit">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <span class="portfolio-category">Graphic Design</span>
+                <h3>Social Media Campaign</h3>
+                <p>Cohesive social media templates and content strategy for digital presence.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="portfolio-card" data-cursor="View">
+              <div class="portfolio-img-wrap">
+                <img src="6.png" class="img-fluid" alt="Event Poster">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <span class="portfolio-category">Graphic Design</span>
+                <h3>Event Poster Series</h3>
+                <p>Eye-catching promotional materials for campus events and community programs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG SECTION -->
+  <section id="blog" class="blog">
+    <div class="container">
+      <div class="blog-header">
+        <span class="section-tag">Insights</span>
+        <h1 class="section-title">My Blog</h1>
+        <p class="section-desc">I share ideas, experiences, and design explorations from my journey in tech and creativity.</p>
+      </div>
+      <div class="row g-4">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="blog-card">
+            <div class="blog-img-wrap">
+              <img src="plant.png" class="img-fluid" alt="Cooking App UI/UX">
+            </div>
+            <div class="blog-content">
+              <span class="blog-tag">UI/UX Design</span>
+              <h3>Cooking App UI/UX Tutorial</h3>
+              <p>A modern and intuitive app design that helps users explore cooking tutorials with a clean interface and smooth navigation experience.</p>
+              <a href="#" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="blog-card">
+            <div class="blog-img-wrap">
+              <img src="Plant2.png" class="img-fluid" alt="Cooking App UI/UX">
+            </div>
+            <div class="blog-content">
+              <span class="blog-tag">UI/UX Design</span>
+              <h3>Plant Care & Eco App UI/UX Tutorial</h3>
+              <p>A clean and sustainable app design that guides users in planting care and eco-friendly practices to help reduce carbon emissions.</p>
+              <a href="#" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="blog-card">
+            <div class="blog-img-wrap">
+              <img src="pelapor.png" class="img-fluid" alt="Cooking App UI/UX">
+            </div>
+            <div class="blog-content">
+              <span class="blog-tag">UI/UX Design</span>
+              <h3>Road Report App UI/UX Tutorial</h3>
+              <p>An intuitive app design that helps users easily report damaged or pothole roads, improving public safety through efficient navigation.</p>
+              <a href="#" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-header">
+        <span class="section-tag">Get In Touch</span>
+        <h1 class="section-title">Let's Work Together</h1>
+        <p class="section-desc">Have a project in mind? Let's create something amazing together.</p>
+      </div>
+      <div class="row py-5 contact-mobile">
+        <div class="row g-0 shadow-lg overflow-hidden rounded-3 contact-wrap">
+          <div class="col-lg-8 bg-white p-5">
+            <h2 class="fw-bold mb-4">Send a Message</h2>
+            <form>
+              <h1>Name</h1>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Your First Name & Last Name">
+              </div>
+              <h1>Email</h1>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Your Email">
+              </div>
+              <h1>Message</h1>
+              <div class="mb-3">
+                <textarea class="form-control" rows="5" placeholder="How can we help?"></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+          </div>
+          <div class="col-lg-4 bg-dark text-white p-5">
+            <h4 class="mb-4 fw-bold">Contact Info</h4>
+            <p class="mb-2"><i class="bi bi-telephone-fill me-2"></i> +62 (821) 3941-9010</p>
+            <p class="mb-4"><i class="bi bi-envelope-fill me-2"></i>danielstevee1208@gmail.com</p>
+            <div class="d-flex gap-3 fs-4">
+              <a href="#" class="text-secondary"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-secondary"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" class="text-secondary"><i class="bi bi-youtube"></i></a>
+              <a href="#" class="text-secondary"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="Group.png" alt="Logo" width="30" height="30">
+          <span>Daniel Steven Setyawan</span>
+        </div>
+        <p class="footer-text">Crafting digital experiences with passion and precision.</p>
+        <div class="footer-social">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+        <p class="footer-copy">&copy; 2025 Daniel Steven Setyawan. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+<script>
+  // Custom Cursor
+  const cursor = document.createElement('div');
+  cursor.className = 'custom-cursor';
+  document.body.appendChild(cursor);
+
+  const cursorDot = document.createElement('div');
+  cursorDot.className = 'cursor-dot';
+  document.body.appendChild(cursorDot);
+
+  document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+    cursorDot.style.left = e.clientX + 'px';
+    cursorDot.style.top = e.clientY + 'px';
+  });
+
+  document.querySelectorAll('.portfolio-card').forEach(card => {
+    card.addEventListener('mouseenter', () => {
+      cursor.classList.add('cursor-hover');
+      cursor.setAttribute('data-text', card.getAttribute('data-cursor'));
+    });
+    card.addEventListener('mouseleave', () => {
+      cursor.classList.remove('cursor-hover');
+      cursor.removeAttribute('data-text');
+    });
+  });
+
+  // Portfolio Tab Switching
+  const tabs = document.querySelectorAll('.portfolio-tab');
+  const contents = document.querySelectorAll('.portfolio-content');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      contents.forEach(c => c.classList.remove('active'));
+
+      tab.classList.add('active');
+      const target = tab.getAttribute('data-tab');
+      document.getElementById(target + '-content').classList.add('active');
+
+      // Animate cards in
+      gsap.fromTo(`#${target}-content .portfolio-card`, 
+        { opacity: 0, y: 40 },
+        { opacity: 1, y: 0, duration: 0.6, stagger: 0.15, ease: "power3.out" }
+      );
+    });
+  });
+
+  // GSAP Animations
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Navbar scroll effect
+  ScrollTrigger.create({
+    start: 'top -80',
+    end: 99999,
+    toggleClass: { className: 'scrolled', targets: '.navbar' }
+  });
+
+  // Section headers reveal
+  gsap.utils.toArray('.section-tag, .section-title, .section-desc').forEach(el => {
+    gsap.from(el, {
+      scrollTrigger: {
+        trigger: el,
+        start: 'top 85%',
+        toggleActions: 'play none none none'
+      },
+      y: 30,
+      opacity: 0,
+      duration: 0.8,
+      ease: 'power3.out'
+    });
+  });
+
+  // Stats section reveal
+  gsap.from('.stat-header', {
+    scrollTrigger: {
+      trigger: '.stats-section',
+      start: 'top 80%',
+      toggleActions: 'play none none none'
+    },
+    y: 60,
+    opacity: 0,
+    duration: 0.8,
+    stagger: 0.2,
+    ease: 'power3.out'
+  });
+
+  // Portfolio cards reveal
+  gsap.utils.toArray('.portfolio-card').forEach((card, i) => {
+    gsap.from(card, {
+      scrollTrigger: {
+        trigger: card,
+        start: 'top 85%',
+        toggleActions: 'play none none none'
+      },
+      y: 60,
+      opacity: 0,
+      duration: 0.8,
+      delay: i * 0.1,
+      ease: 'power3.out'
+    });
+  });
+
+  // Blog cards reveal
+  gsap.utils.toArray('.blog-card').forEach((card, i) => {
+    gsap.from(card, {
+      scrollTrigger: {
+        trigger: card,
+        start: 'top 85%',
+        toggleActions: 'play none none none'
+      },
+      y: 60,
+      opacity: 0,
+      duration: 0.8,
+      delay: i * 0.15,
+      ease: 'power3.out'
+    });
+  });
+
+  // Contact section reveal
+  gsap.from('.contact-wrap', {
+    scrollTrigger: {
+      trigger: '.contact-wrap',
+      start: 'top 85%',
+      toggleActions: 'play none none none'
+    },
+    y: 80,
+    opacity: 0,
+    duration: 1,
+    ease: 'power3.out'
+  });
+
+  // Footer reveal
+  gsap.from('.footer-content', {
+    scrollTrigger: {
+      trigger: '.footer',
+      start: 'top 90%',
+      toggleActions: 'play none none none'
+    },
+    y: 40,
+    opacity: 0,
+    duration: 0.8,
+    ease: 'power3.out'
+  });
+
+  // Counter Animation with Intersection Observer
+  const counters = document.querySelectorAll('.counter');
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const counter = entry.target;
+        const target = +counter.getAttribute('data-target');
+        let count = 0;
+        const increment = target / 60;
+
+        const updateCount = () => {
+          if (count < target) {
+            count += increment;
+            counter.innerText = Math.ceil(count);
+            requestAnimationFrame(updateCount);
+          } else {
+            counter.innerText = target.toLocaleString();
+          }
+        };
+        updateCount();
+        counterObserver.unobserve(counter);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  counters.forEach(counter => counterObserver.observe(counter));
+
+  // Stats Header Click Toggle - Full Width Expand
+  document.querySelectorAll('.stat-header').forEach(header => {
+    header.addEventListener('click', (e) => {
+      // Don't toggle if clicking on a link inside
+      if (e.target.closest('a')) return;
+
+      const statType = header.getAttribute('data-stat');
+      const detail = document.querySelector(`.stat-detail[data-stat="${statType}"]`);
+      const isActive = header.classList.contains('active');
+
+      // Close all headers and details
+      document.querySelectorAll('.stat-header').forEach(h => h.classList.remove('active'));
+      document.querySelectorAll('.stat-detail').forEach(d => {
+        d.classList.remove('active');
+        d.style.maxHeight = '0';
+        d.style.opacity = '0';
+        d.style.paddingTop = '0';
+        d.style.paddingBottom = '0';
+      });
+
+      if (!isActive) {
+        header.classList.add('active');
+        detail.classList.add('active');
+        detail.style.maxHeight = '600px';
+        detail.style.opacity = '1';
+        detail.style.paddingTop = '30px';
+        detail.style.paddingBottom = '30px';
+      }
+    });
+  });
+
+  // Experience items reveal
+  gsap.utils.toArray('.experience-item').forEach((item, i) => {
+    gsap.from(item, {
+      scrollTrigger: {
+        trigger: item,
+        start: 'top 90%',
+        toggleActions: 'play none none none'
+      },
+      x: -30,
+      opacity: 0,
+      duration: 0.6,
+      delay: i * 0.05,
+      ease: 'power3.out'
+    });
+  });
+  
+  
+  // Navbar active on click + scroll
+const sections = document.querySelectorAll("section[id]");
+const navLinks = document.querySelectorAll(".nav-link");
+
+// Active ketika di klik
+navLinks.forEach(link => {
+  link.addEventListener("click", function () {
+    navLinks.forEach(item => item.classList.remove("active"));
+    this.classList.add("active");
+  });
+});
+
+// Active ketika scroll
+window.addEventListener("scroll", () => {
+  let current = "";
+
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 120;
+    const sectionHeight = section.offsetHeight;
+
+    if (window.scrollY >= sectionTop &&
+        window.scrollY < sectionTop + sectionHeight) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLinks.forEach(link => {
+    link.classList.remove("active");
+
+    if (link.getAttribute("href") === `#${current}`) {
+      link.classList.add("active");
+    }
+  });
+});
+</script>
+
+
+</html>
