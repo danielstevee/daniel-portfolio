@@ -22,30 +22,53 @@
 
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="Group.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-        Daniel.
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mx-auto">
-          <a class="nav-link px-lg-3 rounded" href="#Home">Home</a>
-          <a class="nav-link px-lg-3 rounded" href="#about">About</a>
-          <a class="nav-link px-lg-3 rounded" href="#portfolio">Portfolio</a>
-          <a class="nav-link px-lg-3 rounded" href="#blog">Blog</a>
+<nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
+  <div class="container px-4">
+    
+    <!-- 1. BRAND / LOGO -->
+    <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#">
+      <img src="Group.png" alt="Logo" width="30" height="30" class="d-inline-block">
+      <span>Daniel.</span>
+    </a>
+
+    <!-- 2. TOMBOL HAMBURGER (MOBILE) -->
+    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- 3. WRAPPER COLLAPSE MENU -->
+    <div class="collapse navbar-collapse mt-3 mt-lg-0" id="navbarNavAltMarkup">
+      
+      <!-- Link Navigasi -->
+      <div class="navbar-nav mx-auto text-center gap-2 gap-lg-0">
+        <div>
+          <a class="nav-link px-lg-3 d-inline-block fw-medium" href="#Home">Home</a>
+        </div>
+        <div>
+          <a class="nav-link px-lg-3 d-inline-block fw-medium" href="#about">About</a>
+        </div>
+        <div>
+          <a class="nav-link px-lg-3 d-inline-block fw-medium" href="#portfolio">Portfolio</a>
+        </div>
+        <div>
+          <a class="nav-link px-lg-3 d-inline-block fw-medium" href="#blog">Blog</a>
         </div>
       </div>
-      <div class="contact-nav ms-auto">
-        <a class="btn" href="#contact">Let's Talk</a>
+
+      <!-- Tombol Contact (MEMENUHI LAYAR MOBILE DENGAN GAP) -->
+      <!-- 'px-2' memberi gap dari pinggir container di mobile -->
+      <div class="contact-nav text-center my-3 my-lg-0 px-2 px-lg-0">
+        <!-- 'w-100' bikin tombol penuh di mobile, 'w-lg-auto' bikin ukurannya normal lagi di laptop/desktop -->
+        <a class="btn btn-dark py-2.5 px-4 w-100 w-lg-auto px-lg-4  fw-semibold" href="#contact">
+          Let's Talk
+        </a>
       </div>
+
     </div>
-  </nav>
+
+  </div>
+</nav>
 
   <!-- HOME SECTION -->
   <section id="Home" class="main py-5">

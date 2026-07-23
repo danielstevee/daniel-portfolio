@@ -1130,35 +1130,31 @@ html {
   .section-title {
     font-size: 32px;
   }
+/* Stats mobile */
+.stats-wrapper {
+  border: none;
+  display: grid;
+  grid-template-areas:
+    "h-projects"
+    "d-projects"
+    "h-certificates"
+    "d-certificates"
+    "h-techstack"
+    "d-techstack";
+  gap: 0px;
+}
 
-  /* Stats mobile */
-  .stats-wrapper {
-    border: none;
-  }
+.stats-grid,
+.stat-details {
+  display: contents; /* biar child-nya ikut aturan grid stats-wrapper */
+}
 
-  .stats-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-    border: none;
-  }
-
-  .stat-header {
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 30px 20px;
-  }
-
-  .stat-header:first-child,
-  .stat-header:nth-child(2),
-  .stat-header:last-child {
-    border-radius: 12px;
-    border-right: 1px solid var(--border);
-  }
-
-  .stat-detail {
-    border-radius: 0 0 12px 12px;
-    padding: 0 20px;
-  }
+.stat-header[data-stat="projects"]      { grid-area: h-projects; }
+.stat-detail[data-stat="projects"]      { grid-area: d-projects; }
+.stat-header[data-stat="certificates"]  { grid-area: h-certificates; }
+.stat-detail[data-stat="certificates"]  { grid-area: d-certificates; }
+.stat-header[data-stat="techstack"]     { grid-area: h-techstack; }
+.stat-detail[data-stat="techstack"]     { grid-area: d-techstack; }
 
   .stat-detail.active {
     padding: 20px;
