@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "title": "Dashboard Parkir Pintar",
+    "cover": "src/assets/iot/Sparks/sparks.png",
+    "images": [
+      "src/assets/iot/Sparks/sparks.png",
+      "src/assets/iot/Sparks/sparks1.png",
+      "src/assets/iot/Sparks/sparks2.png"
+    ],
+    "video": "https://youtu.be/PullHEU7UBU",
+    "desc": "Dashboard Parkir Pintar berbasis React untuk memantau ketersediaan slot dan aktivitas parkir secara waktu nyata.",
+    "longDesc": "Dashboard pemantauan Parkir Pintar berbasis React untuk menampilkan informasi ketersediaan slot parkir, status gerbang otomatis, dan aktivitas parkir secara waktu nyata melalui integrasi dengan perangkat IoT.",
+    "tech": ["ESP32", "MQTT", "Node.js", "React"],
+    "report": "",
+    "repo": "https://github.com/danielstevee/smart-parking-dashboard"
+  },
+   {
+    "id": 2,
+    "title": "Pendeteksi Jarak Pintar Arduino",
+    "cover": "src/assets/iot/Jarak/jarak1.png",
+    "images": [
+      "src/assets/iot/Jarak/jarak1.png",
+      "src/assets/images/plant.png",
+      "src/assets/images/Plant2.png"
+    ],
+    "video": "",
+    "desc": "Sistem smart home berbasis IoT yang memantau sensor secara real-time dan mengirim peringatan melalui dashboard web.",
+    "longDesc": "Sistem pendeteksi jarak berbasis Arduino menggunakan sensor ultrasonik, LED RGB, buzzer, dan LCD untuk memberikan peringatan berdasarkan jarak objek.",
+    "tech": ["Arduino", "C++", "HC-SR04", "I2C LCD", "Wokwi"],
+    "report": "/src/assets/reports/Daniel Steven Setyawan_TugasIOT_24051204042_TIB2024.pdf",
+    "repo": "https://wokwi.com/projects/476029958952451073"
+  },
+   {
+    "id": 3,
+    "title": "Penghitung Kendaraan Arduino",
+    "cover": "src/assets/iot/gerbang/gerbang.png",
+    "images": [
+      "src/assets/iot/gerbang/gerbang.png"
+    ],
+    "video": "",
+    "desc": "Sistem penghitung kendaraan berbasis Arduino untuk memantau ketersediaan slot dan mengontrol palang secara otomatis masuk & keluar.",
+    "longDesc": "Penghitung Kendaraan Arduino merupakan sistem penghitung kendaraan berbasis Arduino Mega 2560 yang menggunakan sensor ultrasonik untuk mendeteksi kendaraan masuk dan keluar. Sistem ini dilengkapi dengan palang otomatis menggunakan servo, indikator LED untuk status slot, seven-segment untuk menampilkan sisa slot, serta LCD untuk menampilkan informasi kapasitas secara waktu nyata.",
+    "tech": ["Arduino Mega 2560", "C++", "HC-SR04", "Servo Motor", "RGB LED", "Seven-Segment Display", "I2C LCD", "Wokwi"],
+    "report": "/src/assets/reports/Pratikum2_Daniel Steven Setyawan_24051204042_TIB2024.pdf",
+    "repo": "https://wokwi.com/projects/476697408275478529"
+  }
+]

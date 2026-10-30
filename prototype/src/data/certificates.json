@@ -1,0 +1,92 @@
+[
+  {
+    "img": "src/assets/certificates/thumbnails/Belajar-Membuat-Aplikasi-Dengan-React-Sertifikat.png",
+    "title": "Belajar Membuat Aplikasi Web dengan React",
+    "desc": "Dicoding Indonesia - 05 Oktober 2026. Membangun aplikasi web React dengan komponen reusable, stateful component, dan controlled component."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/Belajar-Front-End.png",
+    "title": "Belajar Membuat Front-End Web untuk Pemula",
+    "desc": "Dicoding Indonesia - 24 September 2026. Membuat aplikasi front-end interaktif dengan manipulasi DOM, event, dan penyimpanan data Web Storage."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/Belajar-Dasar-Pemrograman-JavaScript.png",
+    "title": "Belajar Dasar Pemrograman JavaScript",
+    "desc": "Dicoding Indonesia - 14 September 2026. Menguasai dasar JavaScript, mulai dari sintaks, function, struktur data, OOP, asynchronous, hingga code quality."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/Belajar-Dasar-Pemrograman-Web.png",
+    "title": "Belajar Dasar Pemrograman Web",
+    "desc": "Dicoding Indonesia - 03 September 2026. Membangun fondasi pengembangan web dengan HTML, CSS, layout Flexbox, dan desain responsif."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/sertifikat-course-Belajar-Dasar-AI.png",
+    "title": "Belajar Dasar AI",
+    "desc": "Dicoding Indonesia - 26 Agustus 2026. Memahami konsep dasar Artificial Intelligence, data untuk AI, Machine Learning, dan Deep Learning."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/sertifikat-course-317-5876178-240826232058.png",
+    "title": "Belajar Dasar Git dengan GitHub",
+    "desc": "Dicoding Indonesia - 24 Agustus 2026. Mengelola kode dan berkolaborasi dalam tim menggunakan Git, GitHub, branching, pull request, dan code review."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/sertifikat-course-Pengenalan-ke-Logika-Pemrograman-Programming-Logic-101.png",
+    "title": "Pengenalan ke Logika Pemrograman (Programming Logic 101)",
+    "desc": "Dicoding Indonesia - 24 Agustus 2026. Memahami logika dan algoritma, gerbang logika, serta computational thinking untuk pemecahan masalah."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/Sertifikat-Kompetensi-Memulai-Pemrograman-Dasar-Dicoding-2026.png",
+    "title": "Memulai Dasar Pemrograman untuk Menjadi Pengembang Software",
+    "desc": "Dicoding Indonesia - 23 Agustus 2026. Memahami kebutuhan aplikasi, membuat diagram alur, dan memodifikasi aplikasi dengan HTML, CSS, serta JavaScript dasar."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/Mastering-High-Impact-Web-Bugs-Access-Control-App-Dos.png",
+    "title": "Webinar: Mastering High-Impact Web Bugs, Access Control & App-DoS",
+    "desc": "Webinar bersama Artha Suratinoyo - 04 Oktober 2026. Mempelajari teknik menemukan celah keamanan web berisiko tinggi, termasuk access control dan serangan App-DoS."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/Fakultas-Bersertifikasi-Gemini.png",
+    "title": "Pengajar Tersertifikasi Gemini",
+    "desc": "Google for Education - 01 Oktober 2026. Menunjukkan kompetensi dasar penggunaan AI Google di lingkungan pendidikan tinggi."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/Gemini-Educator.png",
+    "title": "Pendidik Tersertifikasi Gemini",
+    "desc": "Google for Education - 01 Oktober 2026. Menunjukkan pengetahuan, keterampilan, dan kompetensi dasar penggunaan AI Google di lingkungan pendidikan."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/Sertifikat-Gemini-Daniel-Steven-Setyawan-042-TIB24.png",
+    "title": "Siswa Tersertifikasi Gemini Universitas",
+    "desc": "Google for Education - 30 September 2026. Menunjukkan kompetensi dasar penggunaan AI Google di lingkungan pendidikan tinggi."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/sertifikat-aws-ML.png",
+    "title": "Set Latihan Soal Resmi AWS Certified Machine Learning Engineer - Associate (MLA-C01)",
+    "desc": "AWS Training & Certification - 15 Juli 2026. Menyelesaikan latihan soal resmi untuk persiapan sertifikasi AWS Machine Learning Engineer - Associate."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/sertifikat-cloud.png",
+    "title": "AWS Cloud Practitioner Essentials",
+    "desc": "AWS Training & Certification - 15 Juli 2026. Mempelajari dasar komputasi awan AWS, layanan inti, keamanan, arsitektur, dan model penetapan biaya."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/Daniel-Steven-setyawan-Exhibitor-GDGOC-Sertif.png",
+    "title": "Peserta Pameran Tech A Notes 2 x Informatics Cluster",
+    "desc": "Google Developer Group on Campus UNESA - 13 Juni 2026. Berpartisipasi sebagai peserta pameran dengan tema Exploring AI to Transform Fear into the Future."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/Daniel-Steven-Setyawan.png",
+    "title": "Anggota Panitia Tech A Notes 2",
+    "desc": "Google Developer Group on Campus UNESA - 13 Juni 2026. Berperan sebagai anggota panitia dalam acara Tech A Notes 2."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/CourseAttendance20260330-32-jiiwcj.png",
+    "title": "Getting Started with Linux Fundamentals (RH104 - RHA)",
+    "desc": "Red Hat - 30 Maret 2026. Memahami dasar-dasar Linux, termasuk perintah dasar dan pengelolaan sistem."
+  },
+  {
+    "img": "src/assets/certificates/thumbnails/CourseAttendance20260330-31-33r56c.png",
+    "title": "Python Programming with Red Hat (AD141 - RHA)",
+    "desc": "Red Hat - 11 Juni 2025. Pelatihan Python untuk otomasi dan pengelolaan sistem menggunakan Red Hat."
+  }
+]

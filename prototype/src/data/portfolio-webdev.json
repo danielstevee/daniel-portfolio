@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "title": "Aplikasi Belajar MathKids",
+    "cover": "src/assets/images/MathKids/MathKids1.png",
+    "images": [
+      "src/assets/images/MathKids/MathKids1.png",
+      "src/assets/images/MathKids/MathKids-2.png",
+      "src/assets/images/MathKids/MathKids-3.png",
+      "src/assets/images/MathKids/MathKids-4.png",
+      "src/assets/images/MathKids/MathKids-5.png",
+      "src/assets/images/MathKids/MathKids-6.png"
+    ],
+    "video": "https://youtu.be/bLbGM6BVXAA",
+    "desc": "Aplikasi edukasi matematika interaktif yang dirancang untuk membuat belajar anak lebih menyenangkan.",
+    "longDesc": "Aplikasi Belajar MathKids merupakan aplikasi edukasi yang dirancang untuk membantu anak-anak belajar dan berlatih matematika melalui pengalaman digital yang interaktif, menarik, dan menyenangkan.",
+    "tech": [
+      "PHP",
+      "CSS",
+      "Hack"
+    ],
+    "links": {
+      "demo": "https://mathkids-learning.infinityfreeapp.com/?i=1",
+      "github": "https://github.com/danielstevee/mathkids-learning-app/tree/main"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Halaman Promosi Hosting WeServe",
+    "cover": "src/assets/images/WeServe/weserve1.png",
+    "images": [
+      "src/assets/images/WeServe/weserve1.png",
+      "src/assets/images/WeServe/weserve2.png",
+      "src/assets/images/WeServe/weserve3.png",
+      "src/assets/images/WeServe/weserve4.png",
+      "src/assets/images/WeServe/weserve5.png"
+    ],
+    "video": "",
+    "desc": "Halaman promosi layanan web hosting dengan desain modern, profesional, dan responsif.",
+    "longDesc": "Halaman Promosi Hosting WeServe merupakan website promosi layanan web hosting yang dirancang untuk menyajikan informasi layanan melalui tampilan antarmuka yang modern, bersih, dan mudah digunakan.",
+    "tech": [
+      "HTML",
+      "TailwindCSS"
+    ],
+    "links": {
+      "demo": "https://hosting-landingpage.infinityfreeapp.com/?i=1",
+      "github": "https://github.com/danielstevee/WeServe-Hosting-LandingPage.git"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Sistem Administrasi Sapa Desa",
+    "cover": "src/assets/images/SapaDesa/desa1.png",
+    "images": [
+      "src/assets/images/SapaDesa/desa1.png",
+      "src/assets/images/SapaDesa/desa2.png",
+      "src/assets/images/SapaDesa/desa3.png",
+      "src/assets/images/SapaDesa/desa4.png",
+      "src/assets/images/SapaDesa/desa5.png",
+      "src/assets/images/SapaDesa/desa6.png"
+    ],
+    "video": "https://youtu.be/Cdhh34a5aZ0",
+    "desc": "Sistem administrasi surat desa yang dirancang untuk mempermudah proses pelayanan surat.",
+    "longDesc": "Sistem Persuratan Desa merupakan aplikasi berbasis web yang dirancang untuk membantu perangkat desa mengelola administrasi surat secara digital melalui proses pelayanan yang lebih praktis, efisien, dan terstruktur.",
+    "tech": [
+      "React & Vite",
+      "JSX",
+      "JavaScript",
+      "TailwindCSS"
+    ],
+    "links": {
+      "demo": "",
+      "github": "https://github.com/afrzghani/sistem-persuratan-desa.git"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Sistem Monitoring Bantu MBG",
+    "cover": "src/assets/images/MBG/mbg1.png",
+    "images": [
+      "src/assets/images/MBG/mbg1.png",
+      "src/assets/images/MBG/mbg2.png",
+      "src/assets/images/MBG/mbg3.png",
+      "src/assets/images/MBG/mbg4.png",
+      "src/assets/images/MBG/mbg5.png",
+      "src/assets/images/MBG/mbg6.png"
+    ],
+    "video": "",
+    "desc": "Aplikasi monitoring MBG untuk mempermudah pemantauan dan pengelolaan program secara digital.",
+    "longDesc": "Sistem Monitoring Bantu MBG merupakan aplikasi berbasis web yang dirancang untuk membantu proses pemantauan program Makan Bergizi Gratis melalui sistem digital yang informatif, terstruktur, dan mudah digunakan.",
+    "tech": [
+      "CSS",
+      "HTML",
+      "TailwindCSS",
+      "JavaScript"
+    ],
+    "links": {
+      "demo": "https://bantu-mbg.infinityfreeapp.com/?i=1",
+      "github": "https://github.com/danielstevee/Bantu-MBG-System-Monitoring.git"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Profil Perusahaan Rumah Impian",
+    "cover": "src/assets/images/Rumah/rumah1.png",
+    "images": [
+      "src/assets/images/Rumah/rumah1.png",
+      "src/assets/images/Rumah/rumah2.png",
+      "src/assets/images/Rumah/rumah3.png",
+      "src/assets/images/Rumah/rumah4.png",
+      "src/assets/images/Rumah/rumah5.png",
+      "src/assets/images/Rumah/rumah6.png"
+    ],
+    "video": "",
+    "desc": "Halaman promosi properti untuk memperkenalkan hunian dan menarik minat calon pembeli.",
+    "longDesc": "Profil Perusahaan Rumah Impian merupakan halaman promosi yang dirancang untuk memperkenalkan informasi properti dan hunian melalui tampilan website yang modern, menarik, dan informatif.",
+    "tech": [
+      "HTML",
+      "JavaScript",
+      "TailwindCSS"
+    ],
+    "links": {
+      "demo": "https://rumah-impian.infinityfreeapp.com/?i=1",
+      "github": "https://github.com/danielstevee/Rumah-Impian-Company-Profil.git"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Deteksi Kematangan Buah",
+    "cover": "src/assets/images/Matang/matang1.png",
+    "images": [
+      "src/assets/images/Matang/matang1.png",
+      "src/assets/images/Matang/matang2.png",
+      "src/assets/images/Matang/matang3.png",
+      "src/assets/images/Matang/matang4.png",
+      "src/assets/images/Matang/matang5.png"
+    ],
+    "video": "https://youtu.be/dVEtARJR4JI",
+    "desc": "Aplikasi deteksi kematangan buah untuk membantu mengenali tingkat kematangan buah.",
+    "longDesc": "Detection of Fruit Ripeness Using Image Processing merupakan aplikasi berbasis web yang dirancang untuk membantu pengguna mengidentifikasi tingkat kematangan buah melalui pengolahan citra digital secara praktis dan informatif.",
+    "tech": [
+      "HTML",
+      "Python",
+      "TailwindCSS"
+    ],
+    "links": {
+      "demo": "",
+      "github": "https://github.com/danielstevee/Detection-of-Fruit-Ripeness-Using-Image-Processing"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Merek REIJIN",
+    "cover": "src/assets/images/Reijin/reijin1.png",
+    "images": [
+      "src/assets/images/Reijin/reijin1.png",
+      "src/assets/images/Reijin/reijin2.png",
+      "src/assets/images/Reijin/reijin3.png",
+      "src/assets/images/Reijin/reijin4.png",
+      "src/assets/images/Reijin/reijin5.png",
+      "src/assets/images/Reijin/reijin6.png"
+    ],
+    "video": "https://youtu.be/EpwVfDAkio8",
+    "desc": "Website merek fashion untuk memperkenalkan produk dan membangun identitas merek secara digital.",
+    "longDesc": "Website Merek REIJIN merupakan website yang dirancang untuk memperkenalkan merek fashion dan menampilkan produk melalui pengalaman digital yang modern, menarik, dan profesional.",
+    "tech": [
+      "HTML",
+      "JSON",
+      "JavaScript",
+      "TailwindCSS"
+    ],
+    "links": {
+      "demo": "https://reijin-shoes.infinityfreeapp.com/?i=1",
+      "github": "https://github.com/danielstevee/REIJIN-Brand-Website.git"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Rental Mobil Sport Excar",
+    "cover": "src/assets/images/Excar/excar6.png",
+    "images": [
+      "src/assets/images/Excar/excar6.png",
+      "src/assets/images/Excar/excar1.png",
+      "src/assets/images/Excar/excar2.png",
+      "src/assets/images/Excar/excar3.png",
+      "src/assets/images/Excar/excar4.png",
+      "src/assets/images/Excar/excar5.png",
+      "src/assets/images/Excar/excar7.png"
+    ],
+    "video": "https://youtu.be/EUgQjVBtUO8",
+    "desc": "Website rental mobil sport yang memudahkan pengguna melakukan pemesanan secara online.",
+    "longDesc": "Excar Sports Car Rental merupakan platform rental mobil berbasis web yang dirancang untuk memudahkan pengguna menjelajahi berbagai pilihan mobil sport, melihat detail kendaraan, dan melakukan pemesanan secara online melalui antarmuka yang modern dan responsif.",
+    "tech": [
+      "HTML",
+      "Bootstrap",
+      "JavaScript",
+      "JSON"
+    ],
+    "links": {
+      "demo": "",
+      "github": "https://github.com/danielstevee/Excar-Sports-Car-Rental-Platform"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Website Resep Masakan",
+    "cover": "src/assets/images/Resep/risep1.png",
+    "images": [
+      "src/assets/images/Resep/risep1.png",
+      "src/assets/images/Resep/risep2.png",
+      "src/assets/images/Resep/risep3.png",
+      "src/assets/images/Resep/risep4.png",
+      "src/assets/images/Resep/risep5.png"
+    ],
+    "video": "",
+    "desc": "Website resep masakan dirancang untuk menemukan berbagai resep dan panduan memasak.",
+    "longDesc": "Odin Recipes merupakan website resep masakan yang dirancang untuk membantu pengguna menemukan berbagai pilihan hidangan beserta bahan dan langkah pembuatannya melalui tampilan web yang sederhana dan mudah digunakan.",
+    "tech": [
+      "HTML",
+      "TailwindCSS"
+    ],
+    "links": {
+      "demo": "",
+      "github": "https://github.com/danielstevee/odin-recipes"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Platform Peluang Global IELS",
+    "cover": "src/assets/images/IELS/iels1.png",
+    "images": [
+      "src/assets/images/IELS/iels1.png",
+      "src/assets/images/IELS/iels2.png",
+      "src/assets/images/IELS/iels3.png",
+      "src/assets/images/IELS/iels4.png",
+      "src/assets/images/IELS/iels5.png",
+      "src/assets/images/IELS/iels6.png",
+      "src/assets/images/IELS/iels7.png"
+    ],
+    "video": "https://youtu.be/3MGkoEXibOY",
+    "desc": "Website komunitas belajar bahasa Inggris untuk membuka peluang global bagi mahasiswa.",
+    "longDesc": "Website komunitas pembelajaran bahasa Inggris yang membantu mahasiswa Indonesia mendapatkan peluang global seperti beasiswa, studi ke luar negeri, dan karier remote melalui program edukasi dan networking.",
+    "tech": [
+      "TypeScript",
+      "TailwindCSS"
+    ],
+    "links": {
+      "demo": "https://www.ielsco.com/",
+      "github": "https://github.com/danielstevee/IELS-Global-Opportunity-Platform.git"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Website Dewo Robotic UNESA",
+    "cover": "src/assets/images/Dewo/dewo1.png",
+    "images": [
+      "src/assets/images/Dewo/dewo1.png",
+      "src/assets/images/Dewo/dewo2.png",
+      "src/assets/images/Dewo/dewo3.png",
+      "src/assets/images/Dewo/dewo4.png",
+      "src/assets/images/Dewo/dewo5.png"
+    ],
+    "video": "https://youtu.be/AYoi4oMv2Qo",
+    "desc": "Website organisasi robotika UNESA untuk memperkenalkan tim dan kegiatan robotika.",
+    "longDesc": "Dewo Robotic merupakan website organisasi robotika Universitas Negeri Surabaya yang dirancang untuk memperkenalkan tim, kegiatan, dan berbagai pencapaian dalam pengembangan teknologi robotika.",
+    "tech": [
+      "TailwindCSS",
+      "JSON",
+      "React & Vite"
+    ],
+    "links": {
+      "demo": "https://deworobotic.unesa.ac.id/",
+      "github": "https://github.com/daamleon/deworobotic.git"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Pemesanan Online Teja",
+    "cover": "src/assets/images/Teja/teja2.png",
+    "images": [
+      "src/assets/images/Teja/teja2.png",
+      "src/assets/images/Teja/teja3.png",
+      "src/assets/images/Teja/teja4.png",
+      "src/assets/images/Teja/teja5.png",
+      "src/assets/images/Teja/teja6.png"
+    ],
+    "video": "https://youtu.be/AmVjnM7VXi0",
+    "desc": "Pemesanan Online Teja merupakan platform pemesanan makanan berbasis web.",
+    "longDesc": "Pemesanan Online Teja adalah sistem pemesanan makanan dan minuman berbasis web yang dirancang untuk meningkatkan efisiensi layanan restoran atau kedai kopi. Pelanggan dapat melihat menu, melakukan pemesanan, serta membayar menggunakan QRIS langsung melalui perangkat mereka tanpa perlu mengantre di kasir.",
+    "tech": [
+      "HTML",
+      "TailwindCSS"
+    ],
+    "links": {
+      "demo": "",
+      "github": "https://github.com/danielstevee/odin-recipes"
+    }
+  }
+]

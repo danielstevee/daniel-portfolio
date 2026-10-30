@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "title": "Desain Event Inspiring Unileader",
+    "cover": "src/assets/desain/biru/9.png",
+    "images": [
+      "src/assets/desain/biru/9.png",
+      "src/assets/desain/biru/10.png",
+      "src/assets/desain/biru/11.png"
+    ],
+    "video": "",
+    "desc": "Desain materi promosi event Inspiring Unileader untuk kebutuhan feed Instagram, story, dan poster dengan visual yang menarik.",
+    "longDesc": "Perancangan materi visual untuk event Inspiring Unileader bersama Indonesia Organizations Chamber dan Unilever, mencakup konten feed Instagram, story, poster, serta materi promosi acara.",
+    "tech": [
+      "Figma"
+    ],
+    "links": {
+      "demo": "",
+      "github": ""
+    }
+  },
+  {
+    "id": 2,
+    "title": "Desain Indonesia Organizations Chamber (IOC)",
+    "cover": "src/assets/desain/merah/1.png",
+    "images": [
+      "src/assets/desain/merah/1.png",
+      "src/assets/desain/merah/2.png",
+      "src/assets/desain/merah/3.png"
+    ],
+    "video": "",
+    "desc": "Desain konten media sosial Indonesia Organizations Chamber (IOC) untuk memperkuat branding dan meningkatkan engagement audiens.",
+    "longDesc": "Perancangan desain feed Instagram, story, dan poster untuk Indonesia Organizations Chamber (IOC) dengan gaya visual yang konsisten dan komunikatif.",
+    "tech": [
+      "Figma"
+    ],
+    "links": {
+      "demo": "",
+      "github": ""
+    }
+  },
+  {
+    "id": 3,
+    "title": "Desain Unilever 101",
+    "cover": "src/assets/desain/gradasi/4.png",
+    "images": [
+      "src/assets/desain/gradasi/4.png",
+      "src/assets/desain/gradasi/5.png",
+      "src/assets/desain/gradasi/6.png"
+    ],
+    "video": "",
+    "desc": "Desain materi promosi Unilever 101 yang berisi informasi dan panduan seputar program serta peluang karier di Unilever.",
+    "longDesc": "Perancangan konten promosi Unilever 101 untuk memperkenalkan program, tips, dan peluang karier di Unilever melalui desain feed Instagram yang informatif dan menarik.",
+    "tech": [
+      "Figma"
+    ],
+    "links": {
+      "demo": "",
+      "github": ""
+    }
+  },
+  {
+    "id": 4,
+    "title": "Desain Expo Sharing & Faculties Fair Exacta 2026",
+    "cover": "src/assets/desain/excata/excata1.png",
+    "images": [
+      "src/assets/desain/excata/excata1.png",
+      "src/assets/desain/excata/excata2.png",
+      "src/assets/desain/excata/excata3.png"
+    ],
+    "video": "",
+    "desc": "Desain identitas dan materi promosi Expo Sharing & Faculties Fair Exacta 2026, termasuk logo, filosofi desain, dan konten pendaftaran.",
+    "longDesc": "Perancangan identitas visual dan materi promosi untuk Expo Sharing & Faculties Fair Exacta 2026, mencakup logo, filosofi logo dan warna, serta konten publikasi pendaftaran dan informasi acara.",
+    "tech": [
+      "Figma"
+    ],
+    "links": {
+      "demo": "",
+      "github": ""
+    }
+  },
+  {
+    "id": 5,
+    "title": "Desain Event Series 4 GDGoC UNESA",
+    "cover": "src/assets/desain/EventS/event1.jpg",
+    "images": [
+      "src/assets/desain/EventS/event1.jpg",
+      "src/assets/desain/EventS/event2.jpg",
+      "src/assets/desain/EventS/event3.png"
+    ],
+    "video": "",
+    "desc": "Desain materi promosi Event Series 4 Google Developer Group on Campus UNESA dengan tema AI x Business.",
+    "longDesc": "Perancangan materi visual Event Series 4 GDGoC UNESA, mencakup venue reveal, informasi acara AI x Business, dan konten promosi pendaftaran.",
+    "tech": [
+      "Figma"
+    ],
+    "links": {
+      "demo": "",
+      "github": ""
+    }
+  },
+  {
+    "id": 6,
+    "title": "Desain KRTI & COMET Dewo Robotic UNESA 2026",
+    "cover": "src/assets/desain/krti/krti0.png",
+    "images": [
+      "src/assets/desain/krti/krti0.png",
+      "src/assets/desain/krti/krti1.png",
+      "src/assets/desain/krti/krti3.png",
+      "src/assets/desain/krti/comet1.png",
+      "src/assets/desain/krti/comet2.png",
+      "src/assets/desain/krti/comet3.png"
+    ],
+    "video": "",
+    "desc": "Desain materi publikasi tim Dewo Robotic UNESA untuk Kontes Robot Terbang Indonesia (KRTI) dan COMET 2026.",
+    "longDesc": "Perancangan konten publikasi dan identitas tim Dewo Robotic UNESA dalam ajang Kontes Robot Terbang Indonesia (KRTI) 2026 serta Competition of Maritime Education and Training (COMET), mencakup poster tim, profil robot, dan dokumentasi pencapaian.",
+    "tech": [
+      "Figma"
+    ],
+    "links": {
+      "demo": "",
+      "github": ""
+    }
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "title": "Aplikasi Memasak",
+    "cover": "src/assets/images/plant.png",
+    "images": [
+      "src/assets/images/plant.png"
+    ],
+    "video": "",
+    "desc": "Desain aplikasi modern dan intuitif untuk menjelajahi tutorial memasak dengan antarmuka yang bersih.",
+    "longDesc": "Desain aplikasi modern dan intuitif untuk menjelajahi tutorial memasak dengan antarmuka yang bersih.",
+    "tech": [
+      "Figma"
+    ],
+    "links": {
+      "demo": "",
+      "github": ""
+    }
+  },
+  {
+    "id": 2,
+    "title": "Aplikasi Perawatan Tanaman & Ramah Lingkungan",
+    "cover": "src/assets/images/Plant2.png",
+    "images": [
+      "src/assets/images/Plant2.png",
+      "src/assets/UIUX/Tanaman/tanaman.png",
+      "src/assets/UIUX/Tanaman/tanaman1.png",
+      "src/assets/UIUX/Tanaman/tanaman2.png",
+      "src/assets/UIUX/Tanaman/tanaman3.png"
+    ],
+    "video": "",
+    "desc": "Desain aplikasi berkelanjutan yang memandu pengguna dalam merawat tanaman dan menerapkan kebiasaan ramah lingkungan.",
+    "longDesc": "Desain aplikasi berkelanjutan yang memandu pengguna dalam merawat tanaman dan menerapkan kebiasaan ramah lingkungan.",
+    "tech": [
+      "Figma"
+    ],
+    "links": {
+      "demo": "",
+      "github": ""
+    }
+  },
+  {
+    "id": 3,
+    "title": "Aplikasi Lapor Jalan Rusak",
+    "cover": "src/assets/images/pelapor.png",
+    "images": [
+      "src/assets/images/pelapor.png",
+      "src/assets/UIUX/SapaJalan/sapajalan1.png",
+      "src/assets/UIUX/SapaJalan/sapajalan2.png",
+      "src/assets/UIUX/SapaJalan/sapajalan3.png"
+    ],
+    "video": "",
+    "desc": "Aplikasi intuitif untuk melaporkan jalan rusak, meningkatkan keselamatan publik melalui desain.",
+    "longDesc": "Aplikasi intuitif untuk melaporkan jalan rusak, meningkatkan keselamatan publik melalui desain.",
+    "tech": [
+      "Figma"
+    ],
+    "links": {
+      "demo": "",
+      "github": ""
+    }
+  },
+  {
+    "id": 4,
+    "title": "Website Properti Rumah Impian",
+    "cover": "src/assets/UIUX/Home/home0.png",
+    "images": [
+      "src/assets/UIUX/Home/home0.png",
+      "src/assets/UIUX/Home/home1.png",
+      "src/assets/UIUX/Home/home2.png"
+    ],
+    "video": "",
+    "desc": "Desain UI/UX website properti Rumah Impian untuk membantu pengguna menemukan hunian impian melalui antarmuka yang modern, informatif, dan mudah digunakan.",
+    "longDesc": "Perancangan UI/UX website RumahImpian.com yang berfokus pada pengalaman pengguna dalam mencari dan menemukan rumah impian. Desain mencakup halaman beranda, rekomendasi rumah, detail properti, serta fitur konsultasi dan kontak.",
+    "tech": [
+      "Figma"
+    ],
+    "links": {
+      "demo": "",
+      "github": ""
+    }
+  },
+  {
+    "id": 5,
+    "title": "Website Penyedia Hosting WeServe",
+    "cover": "src/assets/UIUX/Hosting/hosting1.png",
+    "images": [
+      "src/assets/UIUX/Hosting/hosting1.png",
+      "src/assets/UIUX/Hosting/hosting.png",
+      "src/assets/UIUX/Hosting/hosting2.png"
+    ],
+    "video": "",
+    "desc": "Desain UI/UX website penyedia layanan hosting WeServe dengan tampilan modern, profesional, dan responsif.",
+    "longDesc": "Perancangan UI/UX website WeServe Hosting Provider yang menampilkan layanan hosting, keunggulan produk, showcase, FAQ, serta halaman sign in dan sign up dengan tampilan yang modern dan profesional.",
+    "tech": [
+      "Figma"
+    ],
+    "links": {
+      "demo": "",
+      "github": ""
+    }
+  },
+  {
+    "id": 6,
+    "title": "Aplikasi Pemesanan TEJA Coffee & Eatery",
+    "cover": "src/assets/UIUX/Masak/masak.png",
+    "images": [
+      "src/assets/UIUX/Masak/masak.png",
+      "src/assets/UIUX/Masak/masak1.png",
+      "src/assets/UIUX/Masak/masak2.png"
+    ],
+    "video": "",
+    "desc": "Desain UI/UX aplikasi pemesanan makanan dan minuman TEJA Coffee & Eatery, mulai dari menu hingga dashboard kasir.",
+    "longDesc": "Perancangan UI/UX aplikasi pemesanan TEJA Coffee & Eatery yang mencakup daftar menu, kustomisasi pesanan, keranjang, checkout, status pesanan, pengelolaan stok, serta riwayat dan pendapatan untuk kasir.",
+    "tech": [
+      "Figma"
+    ],
+    "links": {
+      "demo": "",
+      "github": ""
+    }
+  }
+]
