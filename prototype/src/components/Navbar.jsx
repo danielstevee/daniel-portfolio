@@ -99,16 +99,16 @@ function Navbar() {
             ))}
           </div>
 
-          {/* TOMBOL CONTACT */}
-          <div className=" w-full lg:mt-0 lg:w-auto">
-            <a
-              href="#contact"
-              onClick={() => setIsMenuOpen(false)}
-              className="block w-full rounded-full border-2 border-transparent bg-stone-900 px-6 text-sm text-center font-semibold text-white transition-colors hover:bg-white hover:border-stone-900 hover:text-stone-900 duration-300 lg:inline-block lg:w-auto lg:py-2.5"
-            >
-              Mari Bicara
-            </a>
-          </div>
+        {/* TOMBOL CONTACT */}
+        <div className="w-full lg:mt-0 lg:w-auto">
+          <a
+            href="#contact"
+            onClick={() => setIsMenuOpen(false)}
+            className="block w-full rounded-full border-2 border-transparent bg-stone-900 px-6 py-3 text-center text-sm font-semibold text-white transition-colors duration-300 hover:border-stone-900 hover:bg-white hover:text-stone-900 sm:py-2.5 lg:inline-block lg:w-auto"
+          >
+            Mari Bicara
+          </a>
+        </div>
         </div>
       </div>
     </nav>
