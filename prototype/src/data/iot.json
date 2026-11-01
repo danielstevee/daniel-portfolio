@@ -18,7 +18,7 @@
    {
     "id": 2,
     "title": "Pendeteksi Jarak Pintar Arduino",
-    "cover": "src/assets/iot/Jarak/jarak1.png",
+    "cover": "src/assets/iot/jarak/jarak1.png",
     "images": [
       "src/assets/iot/jarak/jarak1.png"
     ],
