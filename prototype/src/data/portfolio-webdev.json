@@ -2,9 +2,9 @@
   {
     "id": 1,
     "title": "Aplikasi Belajar MathKids",
-    "cover": "src/assets/images/MathKids/MathKids1.png",
+    "cover": "src/assets/images/MathKids/Mathkids1.png",
     "images": [
-      "src/assets/images/MathKids/MathKids1.png",
+      "src/assets/images/MathKids/Mathkids1.png",
       "src/assets/images/MathKids/MathKids-2.png",
       "src/assets/images/MathKids/MathKids-3.png",
       "src/assets/images/MathKids/MathKids-4.png",
@@ -187,7 +187,7 @@
       "src/assets/images/Excar/excar5.png",
       "src/assets/images/Excar/excar7.png"
     ],
-    "video": "https://youtu.be/EUgQjVBtUO8",
+    "video": "https://youtu.be/3Aa_U0a-r90",
     "desc": "Website rental mobil sport yang memudahkan pengguna melakukan pemesanan secara online.",
     "longDesc": "Excar Sports Car Rental merupakan platform rental mobil berbasis web yang dirancang untuk memudahkan pengguna menjelajahi berbagai pilihan mobil sport, melihat detail kendaraan, dan melakukan pemesanan secara online melalui antarmuka yang modern dan responsif.",
     "tech": [

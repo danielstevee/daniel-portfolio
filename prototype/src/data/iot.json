@@ -20,11 +20,9 @@
     "title": "Pendeteksi Jarak Pintar Arduino",
     "cover": "src/assets/iot/Jarak/jarak1.png",
     "images": [
-      "src/assets/iot/Jarak/jarak1.png",
-      "src/assets/images/plant.png",
-      "src/assets/images/Plant2.png"
+      "src/assets/iot/jarak/jarak1.png"
     ],
-    "video": "",
+    "video": "https://youtu.be/VS4ET8s6Yw4",
     "desc": "Sistem smart home berbasis IoT yang memantau sensor secara real-time dan mengirim peringatan melalui dashboard web.",
     "longDesc": "Sistem pendeteksi jarak berbasis Arduino menggunakan sensor ultrasonik, LED RGB, buzzer, dan LCD untuk memberikan peringatan berdasarkan jarak objek.",
     "tech": ["Arduino", "C++", "HC-SR04", "I2C LCD", "Wokwi"],
@@ -38,7 +36,7 @@
     "images": [
       "src/assets/iot/gerbang/gerbang.png"
     ],
-    "video": "",
+    "video": "https://youtu.be/nM7XzIlWMIQ",
     "desc": "Sistem penghitung kendaraan berbasis Arduino untuk memantau ketersediaan slot dan mengontrol palang secara otomatis masuk & keluar.",
     "longDesc": "Penghitung Kendaraan Arduino merupakan sistem penghitung kendaraan berbasis Arduino Mega 2560 yang menggunakan sensor ultrasonik untuk mendeteksi kendaraan masuk dan keluar. Sistem ini dilengkapi dengan palang otomatis menggunakan servo, indikator LED untuk status slot, seven-segment untuk menampilkan sisa slot, serta LCD untuk menampilkan informasi kapasitas secara waktu nyata.",
     "tech": ["Arduino Mega 2560", "C++", "HC-SR04", "Servo Motor", "RGB LED", "Seven-Segment Display", "I2C LCD", "Wokwi"],

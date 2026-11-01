@@ -36,7 +36,7 @@ function Navbar() {
 
   return (
     <nav className="fixed inset-x-0 top-0 z-50 bg-white shadow-sm">
-      <div className="relative mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
+      <div className="site-container relative flex items-center justify-between py-4">
         {/* BRAND / LOGO */}
         <a href="#Home" className="flex shrink-0 items-center gap-2 font-bold">
           <img

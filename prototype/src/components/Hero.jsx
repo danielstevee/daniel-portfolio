@@ -11,7 +11,7 @@ function Hero() {
       max-[991px]:items-start max-[991px]:justify-center max-[991px]:bg-[length:90%] max-[991px]:bg-[position:center_bottom] max-[991px]:pt-[110px] max-[991px]:pb-[70px] max-[991px]:text-center"
       style={{ backgroundImage: `url(${danielImage})` }}
     >
-      <div className="mx-auto w-full max-w-7xl px-4">
+      <div className="site-container">
         <div className="py-5">
           <div className="w-full py-5 lg:mr-auto lg:w-1/2 lg:text-left">
             <h1 className="font-heading text-4xl font-bold leading-tight text-stone-900 md:text-5xl max-[991px]:text-[36px] max-[991px]:[text-shadow:0_2px_10px_rgba(255,255,255,0.95)]">

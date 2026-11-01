@@ -3,7 +3,7 @@ import logo from "../assets/images/Group.png";
 function Footer() {
   return (
     <footer className="bg-[#1a1a1a] py-12 text-center">
-      <div className="mx-auto max-w-7xl px-4">
+      <div className="site-container">
         <div className="mb-5 flex items-center justify-center gap-3">
           <img src={logo} alt="Logo" width="30" height="30" />
           <span className="font-heading text-lg font-semibold text-white">Daniel Steven Setyawan</span>

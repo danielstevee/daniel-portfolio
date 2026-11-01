@@ -102,7 +102,7 @@ function Stats() {
 
   return (
     <section id="stats" className="border-y border-[#e5e5e5] bg-white py-20">
-      <div className="mx-auto max-w-7xl px-4">
+      <div className="site-container">
         <div
           className="stats-wrapper overflow-hidden rounded-2xl border border-[#e5e5e5] max-md:rounded-none max-md:border-0"
           onPointerLeave={(e) => {

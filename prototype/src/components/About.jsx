@@ -4,7 +4,7 @@ function About() {
 
   return (
     <section id="about" className="bg-[#f5f0eb] py-24 md:py-32">
-      <div className="mx-auto max-w-7xl px-4">
+      <div className="site-container">
         <div className="mb-12 text-center md:mb-16">
           <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-[0.3em] text-[#c4a882]">
             Tentang Saya
