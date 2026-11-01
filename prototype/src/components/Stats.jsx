@@ -35,65 +35,114 @@ const getLangColor = (lang) => {
 
 const techs = ["html5", "css3-alt", "js", "bootstrap", "figma", "python", "cuttlefish", "php", "git-alt", "react"];
 
+const GITHUB_USERNAME = "danielstevee";
+const GITHUB_REPOS_API = `https://api.github.com/users/${GITHUB_USERNAME}/repos?per_page=100&sort=updated`;
+const REPOS_CACHE_KEY = "portfolio:github-repos";
+const FALLBACK_PROJECT_COUNT = 30;
+
+const readCachedRepos = () => {
+  try {
+    const raw = localStorage.getItem(REPOS_CACHE_KEY);
+    if (!raw) return null;
+    const cached = JSON.parse(raw);
+    return Array.isArray(cached?.repos) ? cached.repos : null;
+  } catch {
+    return null;
+  }
+};
+
 function Stats() {
   const [activeStat, setActiveStat] = useState(null);
-  const [repos, setRepos] = useState([]);
-  const [projectCount, setProjectCount] = useState(0);
-  const [loadingRepos, setLoadingRepos] = useState(true);
+  const [cachedRepos] = useState(readCachedRepos);
+  const [repos, setRepos] = useState(() => cachedRepos ?? []);
+  const [projectCount, setProjectCount] = useState(
+    () => cachedRepos?.length ?? FALLBACK_PROJECT_COUNT
+  );
+  const [loadingRepos, setLoadingRepos] = useState(() => !cachedRepos);
+  const [reposError, setReposError] = useState(false);
 
   useEffect(() => {
+    const controller = new AbortController();
+
     const fetchRepos = async () => {
       try {
-        const res = await fetch("https://api.github.com/users/danielstevee/repos?per_page=100&sort=updated");
-        if (res.ok) {
-          const data = await res.json();
-          setRepos(data);
-          setProjectCount(data.length);
+        const res = await fetch(GITHUB_REPOS_API, {
+          signal: controller.signal,
+          headers: { Accept: "application/vnd.github+json" },
+        });
+        if (!res.ok) {
+          throw new Error(`GitHub API error ${res.status}`);
+        }
+        const data = await res.json();
+        if (!Array.isArray(data)) {
+          throw new Error("Unexpected GitHub response");
+        }
+        setRepos(data);
+        setProjectCount(data.length);
+        setReposError(false);
+        try {
+          localStorage.setItem(
+            REPOS_CACHE_KEY,
+            JSON.stringify({ repos: data, savedAt: Date.now() })
+          );
+        } catch {
+          console.warn("GitHub repos cache unavailable");
         }
       } catch (error) {
+        if (error.name === "AbortError") return;
         console.error("Failed to fetch GitHub repos:", error);
-        setRepos([]);
-        setProjectCount(0);
+        setReposError(true);
+        setProjectCount((prev) => (prev > 0 ? prev : FALLBACK_PROJECT_COUNT));
       } finally {
-        setLoadingRepos(false);
+        if (!controller.signal.aborted) setLoadingRepos(false);
       }
     };
 
     fetchRepos();
+    return () => controller.abort();
   }, []);
 
   useEffect(() => {
+    const cleanups = [];
     const counters = document.querySelectorAll(".counter");
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const counter = entry.target;
-            const target = +counter.getAttribute("data-target");
-            if (target === 0) {
-              counter.innerText = "0";
-              observer.unobserve(counter);
-              return;
-            }
+
+    counters.forEach((counter) => {
+      const target = +counter.getAttribute("data-target") || 0;
+      counter.innerText = "0";
+
+      if (target === 0) return;
+
+      let frame = 0;
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            observer.unobserve(counter);
             let count = 0;
             const increment = target / 60;
             const updateCount = () => {
               if (count < target) {
                 count += increment;
-                counter.innerText = Math.ceil(count);
-                requestAnimationFrame(updateCount);
+                counter.innerText = Math.ceil(count).toLocaleString();
+                frame = requestAnimationFrame(updateCount);
               } else {
                 counter.innerText = target.toLocaleString();
               }
             };
             updateCount();
-            observer.unobserve(counter);
-          }
-        });
-      },
-      { threshold: 0.5 }
-    );
-    counters.forEach((c) => observer.observe(c));
+          });
+        },
+        { threshold: 0.5 }
+      );
+
+      observer.observe(counter);
+      cleanups.push(() => {
+        if (frame) cancelAnimationFrame(frame);
+        observer.disconnect();
+      });
+    });
+
+    return () => cleanups.forEach((cleanup) => cleanup());
   }, [projectCount]);
 
   const toggleStat = (stat) => {
@@ -159,7 +208,11 @@ function Stats() {
                 {loadingRepos ? (
                   <div className="rounded-lg bg-white px-3.5 py-2.5 text-sm text-[#888888]">Memuat...</div>
                 ) : repos.length === 0 ? (
-                  <div className="rounded-lg bg-white px-3.5 py-2.5 text-sm text-[#888888]">Repositori tidak ditemukan</div>
+                  <div className="rounded-lg bg-white px-3.5 py-2.5 text-sm text-[#888888]">
+                    {reposError
+                      ? "Repositori tidak dapat dimuat saat ini. Silakan buka GitHub."
+                      : "Repositori tidak ditemukan"}
+                  </div>
                 ) : (
                   repos.map((repo) => (
                     <a
